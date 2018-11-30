@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../assets/images/houndstooth-pattern.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+#color-nav {
+    color: #b1aaab;
+}
+
+#color-nav:hover {
+    color: #4AAAA5;
+}
+
+#color-nav:active {
+    color: #59CCC6;
+}
+
+.navbar-nav {
+    text-decoration: none;
+    color: #b1aaab;
+    font-size: 18px;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #b1aaab;
+}
+
+#brand-nav {
+    background-color: #4aaaab;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
+#container-border {
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 70px;
+}
+
+header h1 {
+    color: #ffffff;
+    background-color: #64a8a4;
+}
+
+#container-border h1 {
+    color: #64a8a4;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+}
+
+footer h6 {
+    color: #ffffff;
+}
+
+button[type=submit] {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 0px;
+    margin: 8px 0 24px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 6px 6px 30px #777777
+}
+
+button[type=submit]:hover {
+    background-color: #59CCC6;
+}
+
+button[type=submit]:active {
+    background-color: #6FFFF7;
+    position: relative;
+    top: 2px;
+}
+
+.card-deck {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.card h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    left: 0px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+
+.profile-pic {
+    float: left;
+    margin: 0px 30px 20px 0px;
+    box-shadow: 6px 6px 10px #777777;
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+}
+
+/* Psuedo Styling */
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+    color: #4AAAA5;
+}
+
+.navbar-nav a:active {
+    text-decoration: underline;
+    color: #59CCC6;
+    position: relative;
+    top: 2px;
+}
+
+.card:hover {
+    opacity: 0.5;
+}
